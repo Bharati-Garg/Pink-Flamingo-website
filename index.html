@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Link Swiper's CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Flamingo</title>
+  </head>
+
+  <body>
+
+    <!--top-->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <img src="images/top.jpg.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--logo section-->
+    <section class="top-banner">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <img src="images/logo.png.png" />
+          </div>
+
+          <div class="col-lg-6  col-sm-0 deliver">
+            <p><i class="fas fa-map-marker-alt"></i>  Deliver to 110094</p>
+            <input
+              type="text"
+              class="input"
+              placeholder="Search for medication & Wellness products.."
+            />
+            <i class="fas fa-search"></i>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 sign">
+            <img src="images/Group 13514.svg">
+            <img src="images/Group 5.svg">
+            <a href="signIn.html">sign in /</a>
+            <a href="signUp.html">sign up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Navbar Section-->
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+
+          <div
+            class="collapse navbar-collapse bottom-header"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-auto-close="outside"
+                  href="#products"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+                <ul class="dropdown-menu" >
+                  <li class="dropend">
+                    <a
+                      class="dropdown-item dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      href="#dhoopCones"
+                      >Dhoop Cones</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a 
+                        class="dropdown-item" 
+                        href="product.html"
+                          >Jar Cones</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href=""
+                          >Chandan Bamboo Dhoop</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="">Backflow Cone Dhoop</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="">Buddha Red Dhoop</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href=""
+                          >Ountain Sandal Dhoop</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="">Cone Sandal Dhoop</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="">Incenses Holders</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="">Tantras</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="">Incense Sticks</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="">Pooja Thali Sets</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="">Shankh</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="">Kalash</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="">Book Rests</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#services"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#courses">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blogs">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#videos">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+     <!--banner section-->
+         <section id="home" class="home pt-5">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="home-banner home-banner-1">
+                  <div class="home-banner-text">
+                    <h2>
+                      Transform Your Mind & Soul: Discover Your Spiritual Path
+                      with Our Courses
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="home-banner home-banner-2">
+                  <div class="home-banner-text">
+                    <h2>
+                      Transform Your Mind & Soul: Discover Your Spiritual Path
+                      with Our Courses
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true">
+                <i class="fa fa-chevron-left slider-icon"></i>
+              </span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true">
+                <i class="fa fa-chevron-right slider-icon"></i>
+              </span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </section>
+
+          <!--categories section-->
+        <section id="products" class="categories">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h3>Shop Our Top Categories</h3>
+              </div>
+              
+            </div>
+            <div class="row categories-cards">
+            <div class="col-lg-2 col-md-4 col-sm-6">
+             <img src="images/Rectangle 14.png">
+               <h4>Cone Dhoop</h4>
+               <a href="#">Shop Now</a>
+            </div>
+            <div class="col-lg-2  col-md-4 col-sm-6">
+             <img src="images/Rectangle 15.png">
+               <h4>Incense Holders</h4>
+               <a href="#">Shop Now</a>
+            </div>
+            <div class="col-lg-2  col-md-4 col-sm-6">
+             <img src="images/Rectangle 16.png">
+               <h4>Incense Sticks</h4>
+               <a href="#">Shop Now</a>
+            </div>
+            <div class="col-lg-2  col-md-4 col-sm-6">
+             <img src="images/Rectangle 17.png">
+               <h4>Shankh</h4>
+               <a href="#">Shop Now</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+             <img src="images/Rectangle 18.png">
+               <h4>Kalash</h4>
+               <a href="#">Shop Now</a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+             <img src="images/Rectangle 19.png">
+               <h4>Buddha Statue</h4>
+               <a href="#">Shop Now</a>
+            </div>
+            </div>
+          </div>
+        </section>
+   
+   <!--flamingo section-->
+   <section id="courses" class="flamingo">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Why PINK FLAMINGO ?</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <img src="images/pinkduck.jpg.png">
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <p><i class="far fa-check-circle"></i>  Spirituality can provide them with a framework for understanding the universe and their role in </p>
+            <p><i class="far fa-check-circle"></i>  Coping with stress and uncertainty</p>
+              <p><i class="far fa-check-circle"></i>  Spirituality can be a path to personal growth and self-discovery</p>
+                <p><i class="far fa-check-circle"></i>  Spirituality can provide people with a sense of community and connection with others</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!--latest blog-->
+   <section class="products mt-5" id="blogs" >
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Our Latest Blogs</h2>
+        </div>
+        <div class="row">
+       <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="images/girl.jpg.png">
+            <h3>The Power of Mindfulness</h3>
+            <p>Mindfulness is the practice of being present and fully engaged in the moment. It is about paying attention to our thoughts, feelings, and sensations in a non-judgmental way. </p>
+            <button class="btn1">Read More</button>
+           <a href="#">08-05-2022</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="images/godhand.jpg.png">
+            <h3>Connecting with the Divine</h3>
+            <p>Connecting with the Divine refers to the process of establishing a spiritual connection or relationship with a higher power, such as God, the Universe, or a higher consciousness.  </p>
+            <button class="btn1">Read More</button>
+            <a href="#">11-06-2022</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="images/girlhand.jpg.png">
+            <h3>The Beauty of Forgiveness</h3>
+            <p> The beauty of forgiveness lies in its transformative power. It has the ability to heal wounds and to restore relationships that have been damaged. Forgiveness brings a new level of understanding</p>
+            <button class="btn1">Read More</button>
+            <a href="#">11-07-2022</a>
+          </div>
+          <div class="swiper-slide box">
+            <img src="images/godhand.jpg.png">
+            <h3>Connecting with the Divine</h3>
+            <p>Connecting with the Divine refers to the process of establishing a spiritual connection or relationship with a higher power, such as God, the Universe, or a higher consciousness. </p>
+            <button class="btn1">Read More</button>
+            <a href="#">11-06-2022</a>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+<!--contact section-->
+<section id="videos" >
+  <div class="container contact">
+    <div class="row">
+      <h3>Let’s Connect</h3>
+    </div>
+    <div class="row">
+     
+
+     <div class="col-lg-6 col-md-12">
+        <i class="fa fa-user"></i>
+        <input type="text" placeholder=" Name"  class="phone">
+        <i class="fa fa-phone-alt"></i>
+        <input type="tel" placeholder=" Phone"  class="phone"> </br>
+        <i class="far fa-envelope"></i>
+        <input type="text" placeholder=" Email" class="email"> </br>
+        <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder=" Write your message here..."
+              ></textarea>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <img src="images/boys.jpg.png">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer section -->
+<footer id="contact">
+  <div  class="container-fluid footer">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+       <i class="far fa-envelope"> Sign Up To Shop Now</i>
+       
+      </div>
+      <div class="col-lg-6 col-sm-12">
+        <input type="text" placeholder="Enter your email">
+        <button class="btn2">SUBSCRIBE</button>
+      </div>
+    </div>
+  <hr>
+  <div class="row footer2">
+    <div class="col-lg-3 col-md-2">
+      <h4>Contact</h4>
+      <p>Demo Store</p>
+      <p>No. 1258 Utawala, Nairobi, 01010</p>
+      <p>Kenya</p>
+      <p>+25470101010</p>
+      <p>example@gmail.com</p>
+    </div>
+    <div class="col-lg-2 col-md-2">
+      <h4>Information</h4>
+       <p>Privacy Policy</p>
+       <p>Refund Policy</p>
+       <p>Shipping Policy</p>
+       <p>Terms Of Service</p>
+       <p>Blogs</p>
+    </div>
+    <div class="col-lg-2 col-md-2">
+       <h4>Account</h4>
+       <p>Search</p>
+       <p>About Us</p>
+       <p>Faq</p>
+       <p>Contact</p>
+       <p>Help</p>
+    </div>
+    <div class="col-lg-2 col-md-2">
+      <h4>Quick Links</h4>
+      <p>Incense Sticks</p>
+      <p>Shankh</p>
+      <p>Kalash</p>
+      <p>Incense Holders</p>
+      <p>Cone Dhoop</p>
+    </div>
+    <div class="col-lg-3 col-md-2">
+      <h4>Social Media</h4>
+      <p>Follow us on social media and stay updated.</p>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+  </div>
+ </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+
+    <!--Swiper JS-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,258 @@
+@media (max-width: 1199px) {
+  .header_wrapper .navbar-expand-lg .navbar-nav {
+    align-items: center;
+  }
+
+  .header_wrapper .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  /*Navbar*/
+  .header-scrolled {
+    height: auto;
+  }
+  .deliver p {
+    display: none;
+  }
+  .deliver input {
+    margin-top: 20px;
+    width: 98%;
+    border-color: var(--primary-color);
+  }
+  .top-banner .sign {
+    margin-top: 20px;
+  }
+  .header_wrapper .menu-navbar-nav {
+    text-align: center;
+    padding-bottom: 0.9375rem;
+  }
+
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 0.9375rem;
+  }
+
+  .home .home-banner .home-banner-text {
+    margin-right: 50px;
+  }
+  .home .home-banner .home-banner-text h2 {
+    font-size: 2rem;
+    margin-top: 80px;
+  }
+  .categories-cards img {
+    width: 70%;
+  }
+  .flamingo p {
+    font-size: 1rem;
+  }
+  .products .product-slider .box img {
+    width: 18.5rem;
+  }
+
+  .products .product-slider .box a {
+    font-size: 1rem;
+    font-weight: bolder;
+    width: 30%;
+  }
+  .contact img {
+    margin-top: 100px;
+    width: 30vh;
+    height: 20vh;
+  }
+
+  .footer i {
+    font-size: 0.5rem;
+  }
+  .detail-text {
+    font-size: 0.7rem;
+  }
+  .detail-img {
+    width: 105%;
+  }
+  .relate .relate-slider .box img {
+    width: 80%;
+  }
+
+  .relate .relate-slider .box .p1 {
+    margin-right: 90px;
+  }
+  .relate .relate-slider .box .p2 {
+    margin-right: 90px;
+  }
+  .relate .relate-slider .box .p3 {
+    margin-right: 90px;
+  }
+  .relate .relate-slider .box .p4 {
+    margin-right: 90px;
+  }
+}
+
+@media (max-width: 991px) {
+  /*Navbar*/
+  .header-scrolled {
+    height: auto;
+  }
+  .header_wrapper .menu-navbar-nav {
+    text-align: center;
+    padding-bottom: 0.9375rem;
+  }
+
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 0.9375rem;
+  }
+
+  .home .home-banner .home-banner-text {
+    margin-right: 50px;
+  }
+  .home .home-banner .home-banner-text h2 {
+    font-size: 2rem;
+    margin-top: 80px;
+  }
+
+  .contact img {
+    margin-top: 100px;
+    width: 60vh;
+    height: 50vh;
+  }
+  .footer i {
+    font-size: 0.5rem;
+  }
+
+  .relate .relate-slider .box img {
+    width: 80%;
+  }
+
+  .relate .relate-slider .box .p1 {
+    margin-right: 100px;
+  }
+  .relate .relate-slider .box .p2 {
+    margin-right: 90px;
+  }
+  .relate .relate-slider .box .p3 {
+    margin-right: 100px;
+  }
+  .relate .relate-slider .box .p4 {
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header_wrapper .nav-item .nav-link {
+    margin-right: 800px;
+  }
+  .dropdown-menu {
+    width: 60px;
+  }
+  .home .home-banner-1,
+  .home .home-banner-2 {
+    margin-left: 15px;
+  }
+
+  .products .product-slider .box img {
+    width: 21rem;
+  }
+  .contact img {
+    margin-top: 100px;
+    width: 60vh;
+    height: 50vh;
+  }
+  .footer i {
+    font-size: 1rem;
+  }
+
+  .relate .relate-slider .box img {
+    width: 80%;
+  }
+
+  .relate .relate-slider .box .p1 {
+    margin-right: 100px;
+  }
+  .relate .relate-slider .box .p2 {
+    margin-right: 90px;
+  }
+  .relate .relate-slider .box .p3 {
+    margin-right: 100px;
+  }
+  .relate .relate-slider .box .p4 {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 540px) {
+  .header_wrapper .nav-item .nav-link {
+    margin-right: 1500px;
+  }
+
+  .home .home-banner-1,
+  .home .home-banner-2 {
+    margin-left: -250px;
+  }
+
+  .categories-cards img {
+    width: 90%;
+  }
+
+  .products .product-slider {
+    margin-left: 1rem;
+    width: 90%;
+  }
+  .contact input {
+    width: 90%;
+  }
+  .contact img {
+    margin-top: 100px;
+    width: 70vh;
+    height: 50vh;
+  }
+  .footer i {
+    font-size: 1rem;
+  }
+
+  .main img {
+    width: 100%;
+  }
+
+  .detail .img {
+    margin-left: 90px;
+  }
+
+  .text {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 390px) {
+  .header-scrolled {
+    height: auto;
+  }
+  .header_wrapper .nav-item .nav-link {
+    margin-right: 1500px;
+  }
+
+  .contact {
+    margin-top: 0px;
+  }
+  .contact input {
+    width: 90%;
+  }
+  .contact img {
+    margin-top: 100px;
+    width: 50vh;
+    height: 50vh;
+  }
+  .footer i {
+    font-size: 1rem;
+  }
+
+  .detail .img {
+    margin-left: 90px;
+  }
+
+  .text {
+    font-size: 0.8rem;
+  }
+
+  .detail-text button {
+    font-size: 0.8rem;
+  }
+}
